@@ -2,27 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Image Gallery</title>
-<link rel="stylesheet" href="css.css" media="screen" />
+<title>a</title>
 </head>
 <body>
-  <h1>Snapshots</h1>
-  <ul>
-   <li>
-    <a href="fireworks.jpg" onclick="showPic(this);return false;" title="A fireworks display">Fireworks</a>
-   </li>
-   <li>
-    <a href="coffee.jpg" onclick="showPic(this);return false;" title="A cup of black coffee">coffee</a>
-   </li>
-   <li>
-    <a href="rose.jpg" onclick="showPic(this);return false;" title="A red,red rose">Rose</a>
-   </li>
-   <li>
-    <a href="bigben.jpg" onclick="showPic(this);return false;" title="The famous clock">Big Ben</a>
-   </li>
-  </ul>
-  <img id="placeholder" src="placeholder.jpg" alt="my image gallery" />
-  <p id="description">Choose an image.</p>
-  <script src="showPic.js"></script>
+<a href="javascript:popUp('http://www.example.com/');">Example</a>
+<a href="http://www.example.com/" onclick="popUp('http://www.example.com/');return false;">Example</a>
+<a href="http://www.example.com/" onclick="popUp(this.getAttribute('href'));return false;">Example</a>
+<a href="http://www.example.com/" class="popup">Example</a>
+<a href="javascript:popUp('http://www.example.com/');">Example</a>
+<script src="a.js"></script>
 </body>
 </html>
